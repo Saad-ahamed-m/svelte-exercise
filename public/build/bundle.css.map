@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n    // TODO: Add other states for the application\n    let username = \"\";\n\n    function handleClick() {\n        // TODO: Add username and password value in the API call body\n        // TODO: Handle Success & Failure response\n    }\n</script>\n\n<style>\n    /* TODO: Add Styles to application  */\n    main {\n        text-align: center;\n        padding: 1em;\n        max-width: 240px;\n        margin: 0 auto;\n    }\n\n    @media (min-width: 640px) {\n        main {\n            max-width: none;\n        }\n    }\n</style>\n\n<main>\n    <h4>Login Form!</h4>\n    <div>\n        <!-- TODO: Conditional Rendering based on the API call response -->\n        <input type=\"text\" placeholder=\"Username\" bind:value={username} />\n        <br />\n        <br />\n        <button type=\"button\" on:click={handleClick}>Login</button>\n    </div>\n</main>\n"
+  ],
+  "names": [],
+  "mappings": "AAYI,IAAI,cAAC,CAAC,AACF,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AAClB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACvB,IAAI,cAAC,CAAC,AACF,SAAS,CAAE,IAAI,AACnB,CAAC,AACL,CAAC"
+}
